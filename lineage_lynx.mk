@@ -8,6 +8,12 @@
 TARGET_DISABLE_EPPE := true
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Matrixx
+MATRIXX_BUILD_TYPE := Official
+MATRIXX_CHIPSET := Tensor G2
+MATRIXX_BATTERY := 4385mAh
+MATRIXX_DISPLAY := 1080x2400
+
 # Inherit device configuration
 DEVICE_CODENAME := lynx
 DEVICE_PATH := device/google/lynx
